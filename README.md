@@ -36,6 +36,14 @@ python export.py --weights ./yolov7-tiny.pt \
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/TensorRT-8.6.0.12:/usr/local/cuda-11.4/targets/x86_64-linux/lib
 ```
 
+### Устанавливаем OpenCV
+```
+sudo ./install_opencv.sh
+```
+
+### Важно! 
+Не забыть указать в CmakeList.txt свои пути
+
 ### Конвертация в trt 
 Конвертация с помощью trtexec, пример:
   
