@@ -22,10 +22,10 @@ python export.py --weights ./yolov7-tiny.pt \
 ![yolo_structire](figure/yolo_structure.png)
 
 ### Устанавливаем необходимые библиотеки
-Для конвертации в trt нужно установить библиотеки cundd и tensorrt.
+Для конвертации в trt нужно установить библиотеки cudnn и tensorrt.
 Рекомендуется устанавливать из tar.gz пакетов
 
-* Установить cundd
+* Установить cudnn
   https://developer.nvidia.com/rdp/cudnn-download
 
 * Установить tensorrt
